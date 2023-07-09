@@ -1,6 +1,6 @@
 import React from "react";
 import Logo_Group_50 from "../assets/img/Logo_Group_50.svg";
-import Logo_kot from "../assets/img/КОТЕЙКА.svg";
+import Logo_kot from "../assets/img/KOTEYKA.svg";
 
 const Header = () => {
   return (
