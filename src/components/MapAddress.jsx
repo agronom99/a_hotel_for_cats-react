@@ -10,10 +10,8 @@ function KitchenSinkExample() {
   return (
     <Card
       style={{
-        width: "30rem",
         height: "580px",
         flexDirection: "row-reverse",
-        left: "880px",
         backgroundColor: "#fd7e14g",
       }}
       className="maps"
