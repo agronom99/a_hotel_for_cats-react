@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/agronom99/a_hotel_for_cats-react/static/css/main.cc7b6566.css",
-    "main.js": "/agronom99/a_hotel_for_cats-react/static/js/main.88e98349.js",
-    "static/media/Group51.jpg": "/agronom99/a_hotel_for_cats-react/static/media/Group51.ff5f90c51c2c7f844a15.jpg",
-    "static/media/icon5.svg": "/agronom99/a_hotel_for_cats-react/static/media/icon5.5a7e75f483a0da2794a955bad79725f2.svg",
-    "static/media/icon6.svg": "/agronom99/a_hotel_for_cats-react/static/media/icon6.9a95b0b1bce167c6e385ee3971ed7fbf.svg",
-    "static/media/icon4.svg": "/agronom99/a_hotel_for_cats-react/static/media/icon4.74904af4fed3fa31d3cee0bc6c0c7c7d.svg",
-    "static/media/icon2.svg": "/agronom99/a_hotel_for_cats-react/static/media/icon2.f9fb0aecf7c4ac452b9f531d613d9577.svg",
-    "static/media/icon1.svg": "/agronom99/a_hotel_for_cats-react/static/media/icon1.52ac228513be261e3ecc4932fd7373b2.svg",
-    "static/media/icon3.svg": "/agronom99/a_hotel_for_cats-react/static/media/icon3.65fd5b1b429b97b76f87ba11335c88b4.svg",
-    "static/media/paw.svg": "/agronom99/a_hotel_for_cats-react/static/media/paw.ea9f05f1420aa340072754341421009d.svg",
-    "static/media/pawC.svg": "/agronom99/a_hotel_for_cats-react/static/media/pawC.7bcf53b3f316088fdc70e90b530be490.svg",
-    "static/media/Group17L.svg": "/agronom99/a_hotel_for_cats-react/static/media/Group17L.55e52bfba0b8c26f1774.svg",
-    "static/media/Group18R.svg": "/agronom99/a_hotel_for_cats-react/static/media/Group18R.3c866f3671479c1d0dcc.svg",
-    "index.html": "/agronom99/a_hotel_for_cats-react/index.html",
-    "static/media/Ellipse12.svg": "/agronom99/a_hotel_for_cats-react/static/media/Ellipse12.03cf1ee375055292891e.svg",
-    "main.cc7b6566.css.map": "/agronom99/a_hotel_for_cats-react/static/css/main.cc7b6566.css.map",
-    "main.88e98349.js.map": "/agronom99/a_hotel_for_cats-react/static/js/main.88e98349.js.map"
+    "main.css": "/a_hotel_for_cats-react/static/css/main.23ef7f21.css",
+    "main.js": "/a_hotel_for_cats-react/static/js/main.c61e2fa7.js",
+    "static/media/Group51.jpg": "/a_hotel_for_cats-react/static/media/Group51.ff5f90c51c2c7f844a15.jpg",
+    "static/media/icon5.svg": "/a_hotel_for_cats-react/static/media/icon5.5a7e75f483a0da2794a955bad79725f2.svg",
+    "static/media/icon6.svg": "/a_hotel_for_cats-react/static/media/icon6.9a95b0b1bce167c6e385ee3971ed7fbf.svg",
+    "static/media/icon4.svg": "/a_hotel_for_cats-react/static/media/icon4.74904af4fed3fa31d3cee0bc6c0c7c7d.svg",
+    "static/media/icon2.svg": "/a_hotel_for_cats-react/static/media/icon2.f9fb0aecf7c4ac452b9f531d613d9577.svg",
+    "static/media/icon1.svg": "/a_hotel_for_cats-react/static/media/icon1.52ac228513be261e3ecc4932fd7373b2.svg",
+    "static/media/icon3.svg": "/a_hotel_for_cats-react/static/media/icon3.65fd5b1b429b97b76f87ba11335c88b4.svg",
+    "static/media/paw.svg": "/a_hotel_for_cats-react/static/media/paw.ea9f05f1420aa340072754341421009d.svg",
+    "static/media/pawC.svg": "/a_hotel_for_cats-react/static/media/pawC.7bcf53b3f316088fdc70e90b530be490.svg",
+    "static/media/Group17L.svg": "/a_hotel_for_cats-react/static/media/Group17L.55e52bfba0b8c26f1774.svg",
+    "static/media/Group18R.svg": "/a_hotel_for_cats-react/static/media/Group18R.3c866f3671479c1d0dcc.svg",
+    "index.html": "/a_hotel_for_cats-react/index.html",
+    "static/media/Ellipse12.svg": "/a_hotel_for_cats-react/static/media/Ellipse12.03cf1ee375055292891e.svg",
+    "main.23ef7f21.css.map": "/a_hotel_for_cats-react/static/css/main.23ef7f21.css.map",
+    "main.c61e2fa7.js.map": "/a_hotel_for_cats-react/static/js/main.c61e2fa7.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc7b6566.css",
-    "static/js/main.88e98349.js"
+    "static/css/main.23ef7f21.css",
+    "static/js/main.c61e2fa7.js"
   ]
 }
