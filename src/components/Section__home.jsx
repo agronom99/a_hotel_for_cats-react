@@ -11,7 +11,7 @@ const Section__home = () => {
       <h1>Котейка</h1>
       <h2>Затишний готель для котів та кішок</h2>
       <button className="main-button">
-        <p>Бронювання</p>
+        <p style={{margin:"1px 0 0 15px"}}>Бронювання</p>
         <img src={Raw} alt="paw" />
       </button>
     </div>
