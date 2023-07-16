@@ -18,7 +18,7 @@ function App() {
       <UncontrolledExample />
       <UncontrolledExampleReviews />
       <KitchenSinkExample />
-      <Header />
+      <ColorSchemesExample />
       <Footer />
     </div>
   );
