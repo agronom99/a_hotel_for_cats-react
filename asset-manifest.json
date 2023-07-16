@@ -1,25 +1,40 @@
 {
   "files": {
     "main.css": "/a_hotel_for_cats-react/static/css/main.23ef7f21.css",
-    "main.js": "/a_hotel_for_cats-react/static/js/main.c61e2fa7.js",
+    "main.js": "/a_hotel_for_cats-react/static/js/main.71fe5781.js",
     "static/media/Group51.jpg": "/a_hotel_for_cats-react/static/media/Group51.ff5f90c51c2c7f844a15.jpg",
+    "static/media/Rectangle20.jpg": "/a_hotel_for_cats-react/static/media/Rectangle20.fb185aeec46828bb4831.jpg",
+    "static/media/Screenshot_4.jpg": "/a_hotel_for_cats-react/static/media/Screenshot_4.499ee10fcb0ca11b2084.jpg",
+    "static/media/Rectangle20(3).jpg": "/a_hotel_for_cats-react/static/media/Rectangle20(3).9cb49b70dae970c6ece9.jpg",
+    "static/media/Rectangle20(2).jpg": "/a_hotel_for_cats-react/static/media/Rectangle20(2).5156fa3df2ffcff20bdd.jpg",
     "static/media/icon5.svg": "/a_hotel_for_cats-react/static/media/icon5.5a7e75f483a0da2794a955bad79725f2.svg",
     "static/media/icon6.svg": "/a_hotel_for_cats-react/static/media/icon6.9a95b0b1bce167c6e385ee3971ed7fbf.svg",
+    "static/media/Logo_Group_50.svg": "/a_hotel_for_cats-react/static/media/Logo_Group_50.fa86570a7ad9de9aae2b873e4db49e32.svg",
     "static/media/icon4.svg": "/a_hotel_for_cats-react/static/media/icon4.74904af4fed3fa31d3cee0bc6c0c7c7d.svg",
+    "static/media/KOTEYKA.svg": "/a_hotel_for_cats-react/static/media/KOTEYKA.a0e31d6d35c04439d83caf5800e2f1e6.svg",
+    "static/media/fish.svg": "/a_hotel_for_cats-react/static/media/fish.44adc8e7a3451c932435077ca50498f1.svg",
     "static/media/icon2.svg": "/a_hotel_for_cats-react/static/media/icon2.f9fb0aecf7c4ac452b9f531d613d9577.svg",
+    "static/media/instagram.svg": "/a_hotel_for_cats-react/static/media/instagram.6b3407488bf2c56a0e13609bf8703d2f.svg",
     "static/media/icon1.svg": "/a_hotel_for_cats-react/static/media/icon1.52ac228513be261e3ecc4932fd7373b2.svg",
     "static/media/icon3.svg": "/a_hotel_for_cats-react/static/media/icon3.65fd5b1b429b97b76f87ba11335c88b4.svg",
+    "static/media/facebook.svg": "/a_hotel_for_cats-react/static/media/facebook.bed224b45575781577abd6361ebe4969.svg",
+    "static/media/paw_inv.svg": "/a_hotel_for_cats-react/static/media/paw_inv.cf987f530751d7061e7a0244f5845e93.svg",
     "static/media/paw.svg": "/a_hotel_for_cats-react/static/media/paw.ea9f05f1420aa340072754341421009d.svg",
+    "static/media/pawR.svg": "/a_hotel_for_cats-react/static/media/pawR.9ccb81dc25f93604946419a36978689e.svg",
     "static/media/pawC.svg": "/a_hotel_for_cats-react/static/media/pawC.7bcf53b3f316088fdc70e90b530be490.svg",
+    "static/media/Lapka.svg": "/a_hotel_for_cats-react/static/media/Lapka.d0c18151bdf5ffa6b1c3b19429049efa.svg",
+    "static/media/C.svg": "/a_hotel_for_cats-react/static/media/C.db35d97af669c6d287a7996096323d99.svg",
     "static/media/Group17L.svg": "/a_hotel_for_cats-react/static/media/Group17L.55e52bfba0b8c26f1774.svg",
     "static/media/Group18R.svg": "/a_hotel_for_cats-react/static/media/Group18R.3c866f3671479c1d0dcc.svg",
     "index.html": "/a_hotel_for_cats-react/index.html",
-    "static/media/Ellipse12.svg": "/a_hotel_for_cats-react/static/media/Ellipse12.03cf1ee375055292891e.svg",
+    "static/media/telegram_logo_icon_144811.svg": "/a_hotel_for_cats-react/static/media/telegram_logo_icon_144811.86229be21dda891fbb10cb9591894d2e.svg",
+    "static/media/Rectangle50.svg": "/a_hotel_for_cats-react/static/media/Rectangle50.1e91d3b2ad24ab2dfa9fc861a77b3830.svg",
+    "static/media/Ellipse12.svg": "/a_hotel_for_cats-react/static/media/Ellipse12.03cf1ee375055292891ef6a10ac86235.svg",
     "main.23ef7f21.css.map": "/a_hotel_for_cats-react/static/css/main.23ef7f21.css.map",
-    "main.c61e2fa7.js.map": "/a_hotel_for_cats-react/static/js/main.c61e2fa7.js.map"
+    "main.71fe5781.js.map": "/a_hotel_for_cats-react/static/js/main.71fe5781.js.map"
   },
   "entrypoints": [
     "static/css/main.23ef7f21.css",
-    "static/js/main.c61e2fa7.js"
+    "static/js/main.71fe5781.js"
   ]
 }
