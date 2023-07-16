@@ -1,6 +1,7 @@
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import Map from "../assets/img/Rectangle26.jpg";
+import Fon from "../assets/img/Rectangle50.svg";
 
 function KitchenSinkExample() {
   return (
@@ -20,22 +21,39 @@ function KitchenSinkExample() {
         className="map"
         style={{ width: "798px" }}
       />
-      <div style={{backgroundImage: "URL({Map})"}}>
-        <Card.Body style={{ width: "550px", backgroundImage: "URL({Map})" }}>
-          <Card.Title>Card Title</Card.Title>
+      <div style={{ backgroundImage: `URL(${Fon})` }}>
+        <Card.Body style={{ width: "550px",  padding: " 70px 0 35px 170px" }} className="map-text">
+          <Card.Title style={{fontSize:"36px",}} >Як нас знайти</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Адреса:
+            <br /> м.Вінниця,
+            <br /> вул. Келецька, д...
+          </Card.Text>
+          <Card.Text>
+            Режим роботи
+            <br /> щодня, з 9:00 до 20:00
+          </Card.Text>
+          <Card.Text>
+            Phone <br /> 8 (800) 333-55-99
+          </Card.Text>
+          <Card.Text>
+            E-mail
+            <br /> info@cat-hotel.ua
           </Card.Text>
         </Card.Body>
-        <ListGroup className="list-group-flush">
+
+        <Card.Title>Соціальні мережі</Card.Title>
+
+        {/* <ListGroup className="list-group-flush">
           <ListGroup.Item>Cras justo odio</ListGroup.Item>
           <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
           <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-        </ListGroup>
+        </ListGroup> */}
         <Card.Body>
           <Card.Link href="#">Card Link</Card.Link>
           <Card.Link href="#">Another Link</Card.Link>
+          <Card.Link href="#">Another Link</Card.Link>
+
         </Card.Body>
       </div>
     </Card>
