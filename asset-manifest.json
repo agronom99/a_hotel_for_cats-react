@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/agronom99/a_hotel_for_cats-react/static/css/main.113840bb.css",
-    "main.js": "/agronom99/a_hotel_for_cats-react/static/js/main.441738c1.js",
+    "main.js": "/agronom99/a_hotel_for_cats-react/static/js/main.4b183f13.js",
     "static/media/Group51.jpg": "/agronom99/a_hotel_for_cats-react/static/media/Group51.ff5f90c51c2c7f844a15.jpg",
     "static/media/Rectangle20.jpg": "/agronom99/a_hotel_for_cats-react/static/media/Rectangle20.fb185aeec46828bb4831.jpg",
     "static/media/Screenshot_4.jpg": "/agronom99/a_hotel_for_cats-react/static/media/Screenshot_4.499ee10fcb0ca11b2084.jpg",
@@ -31,10 +31,10 @@
     "static/media/Rectangle50.svg": "/agronom99/a_hotel_for_cats-react/static/media/Rectangle50.1e91d3b2ad24ab2dfa9fc861a77b3830.svg",
     "static/media/Ellipse12.svg": "/agronom99/a_hotel_for_cats-react/static/media/Ellipse12.66a2508acddb374de9ce5bd4af038398.svg",
     "main.113840bb.css.map": "/agronom99/a_hotel_for_cats-react/static/css/main.113840bb.css.map",
-    "main.441738c1.js.map": "/agronom99/a_hotel_for_cats-react/static/js/main.441738c1.js.map"
+    "main.4b183f13.js.map": "/agronom99/a_hotel_for_cats-react/static/js/main.4b183f13.js.map"
   },
   "entrypoints": [
     "static/css/main.113840bb.css",
-    "static/js/main.441738c1.js"
+    "static/js/main.4b183f13.js"
   ]
 }
