@@ -9,10 +9,7 @@
 @import "footer.scss";
 @import "map__address.scss";
 
-// @media (max-width: 768px) {
-//   body {
-//   }
-// }
+
 @media (max-width: 900px) {
     body {
       width: 768px;
@@ -22,9 +19,6 @@
       .logo {
         margin-left: 10px;
       }
-    }
-    .navbar-expand .navbar-nav {
-    //   flex-direction: column;
     }
   
     .main {
