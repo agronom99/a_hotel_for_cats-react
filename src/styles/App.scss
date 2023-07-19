@@ -1,10 +1,150 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Nunito:wght@300;400;500;600;700;800;900&family=Rubik:wght@400;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lato:wght@400;700&family=Nunito:wght@300;400;500;600;700;800;900&family=Rubik:wght@400;600;700;900&display=swap");
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
 
 @import "header.scss";
 @import "section__home.scss";
 @import "section__conditions.scss";
 @import "section__slider.scss";
+@import "footer.scss";
+@import "map__address.scss";
 
+// @media (max-width: 768px) {
+//   body {
+//   }
+// }
+@media (max-width: 320px) {
+  body {
+    width: 320px;
+  }
+  .navbar-brand {
+    width: 80px;
+    .logo {
+      margin-left: 10px;
+    }
+  }
+  .navbar-expand .navbar-nav {
+    flex-direction: column;
+  }
 
+  .main {
+    background-image: url("../assets/img/koteika320.jpg");
+    h3,
+    h1,
+    h2 {
+      padding-left: 10px;
+    }
+    .main-button {
+      margin: 180px 0 0 70px;
+      border: 5px;
+    }
+  }
+
+  .conditions {
+    width: 320px;
+    ul {
+      padding-left: 16px;
+      li {
+        height: 340px;
+        padding-left: 10px;
+      }
+    }
+  }
+  .carousel-inner {
+    width: 320px;
+    height: 750px;
+
+    .foto {
+      width: 320px;
+    }
+    .foto1 {
+      width: 290px;
+      height: 240px;
+      left: 20px;
+    }
+    .carousel-caption {
+      h3 {
+        top: -10px;
+      }
+      .ul {
+        top: 250px;
+        left: -30px;
+        width: 290px;
+        .ul-li {
+          width: 280px;
+          padding-left: 10px;
+          ul {
+            margin: 20px 0px;
+            padding: 5px;
+          }
+        }
+      }
+    }
+  }
+  .carousel-control-prev-icon {
+    top: 350px;
+    right: -50px;
+  }
+  .carousel-control-next-icon {
+    top: 350px;
+    right: 50px;
+  }
+  .carousel-indicators {
+    margin: 0px 0 100px 60px;
+  }
+
+  .reviews {
+    .carousel-inner {
+      width: 320px;
+      height: 1450px;
+      margin-left: 0;
+      .fotoR {
+        left: 10px;
+      }
+      .carousel-caption {
+        left: 180px;
+      }
+      .carousel-h3 {
+        width: 300px;
+        top: -200px;
+        left: -170px;
+      }
+      .blok {
+        flex-direction: column;
+        left: 20px;
+        .ul-R {
+          width: 300px;
+          height: 350px;
+          .ul-li {
+            width: 290px;
+          }
+        }
+      }
+    }
+    .carousel-indicators {
+      top: 1325px;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      top: 680px;
+    }
+  }
+  .card {
+    width: 320px;
+    height: 780px;
+    // top: 500px;
+    flex-direction: column-reverse;
+    iframe {
+      width: 320px;
+      height: 320px;
+    }
+    .map-text .card-body {
+      width: 320px;
+      padding: 70px 0 50px 40px;
+    }
+    .map-text .title {
+      padding: 10px 0 0px 40px;
+    }
+    
+  }
+}

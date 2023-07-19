@@ -1,34 +1,19 @@
 import Card from "react-bootstrap/Card";
-// import ListGroup from "react-bootstrap/ListGroup";
-// import Map from "../assets/img/Screenshot_4.jpg";
-import Fon from "../assets/img/Rectangle50.svg";
 import Facebook from "../assets/img/facebook.svg";
 import Instagram from "../assets/img/instagram.svg";
 import Telegram from "../assets/img/telegram_logo_icon_144811.svg";
 const Maps =
   "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1927.012069228429!2d28.42516897540222!3d49.228298771384615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472d5c64796677af%3A0x2aa0817570ca6f6!2z0LLRg9C70LjRhtGPIDYwMC3RgNGW0YfRh9GPLCAxNywg0JLRltC90L3QuNGG0Y8sINCS0ZbQvdC90LjRhtGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgMjEwMDA!5e1!3m2!1suk!2sua!4v1689686890189!5m2!1suk!2sua";
-  
+
 function KitchenSinkExample() {
   return (
-    <Card
-      style={{
-        height: "580px",
-        flexDirection: "row-reverse",
-        backgroundColor: "#fd7e14g",
-      }}
-      className="maps"
-    >
-     
+    <Card>
       <div>
-        <iframe title="map" src={Maps} style={{width: "812px", height: "580px",frameborder:"0" }}></iframe>
-        
+        <iframe title="map" src={Maps}></iframe>
       </div>
-      <div style={{ backgroundImage: `URL(${Fon})` }}>
-        <Card.Body
-          style={{ width: "550px", padding: " 70px 0 35px 170px" }}
-          className="map-text"
-        >
-          <Card.Title style={{ fontSize: "36px" }}>Як нас знайти</Card.Title>
+      <div className="map-text">
+        <Card.Body >
+          <Card.Title>Як нас знайти</Card.Title>
           <Card.Text>
             Адреса:
             <br /> м.Вінниця,
@@ -47,16 +32,11 @@ function KitchenSinkExample() {
           </Card.Text>
         </Card.Body>
 
-        <Card.Title style={{ padding: " 10px 0 20px 170px" }}>
+        <Card.Title className="title" >
           Соціальні мережі
         </Card.Title>
 
-        {/* <ListGroup className="list-group-flush">
-          <ListGroup.Item>Cras justo odio</ListGroup.Item>
-          <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-          <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-        </ListGroup> */}
-        <Card.Body style={{ padding: " 0px 0 35px 170px" }}>
+        <Card.Body className="title-body">
           <Card.Link href="#">
             {" "}
             <img src={Facebook} alt="Facebook" />
@@ -64,7 +44,7 @@ function KitchenSinkExample() {
           <Card.Link href="#">
             <img src={Instagram} alt="Instagram" />
           </Card.Link>
-          <Card.Link href="#" style={{ paddingLeft: "5px" }}>
+          <Card.Link href="#" >
             <img style={{ width: "22px" }} src={Telegram} alt="Telegram" />
           </Card.Link>
         </Card.Body>
