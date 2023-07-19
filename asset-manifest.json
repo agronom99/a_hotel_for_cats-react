@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/a_hotel_for_cats-react/static/css/main.ecd2ae5e.css",
+    "main.css": "/a_hotel_for_cats-react/static/css/main.b0455ed9.css",
     "main.js": "/a_hotel_for_cats-react/static/js/main.ca4ed3e3.js",
     "static/media/Group51.jpg": "/a_hotel_for_cats-react/static/media/Group51.ff5f90c51c2c7f844a15.jpg",
     "static/media/Rectangle20.jpg": "/a_hotel_for_cats-react/static/media/Rectangle20.fb185aeec46828bb4831.jpg",
@@ -30,11 +30,11 @@
     "static/media/telegram_logo_icon_144811.svg": "/a_hotel_for_cats-react/static/media/telegram_logo_icon_144811.86229be21dda891fbb10cb9591894d2e.svg",
     "static/media/Rectangle50.svg": "/a_hotel_for_cats-react/static/media/Rectangle50.1e91d3b2ad24ab2dfa9f.svg",
     "static/media/Ellipse12.svg": "/a_hotel_for_cats-react/static/media/Ellipse12.03cf1ee375055292891ef6a10ac86235.svg",
-    "main.ecd2ae5e.css.map": "/a_hotel_for_cats-react/static/css/main.ecd2ae5e.css.map",
+    "main.b0455ed9.css.map": "/a_hotel_for_cats-react/static/css/main.b0455ed9.css.map",
     "main.ca4ed3e3.js.map": "/a_hotel_for_cats-react/static/js/main.ca4ed3e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecd2ae5e.css",
+    "static/css/main.b0455ed9.css",
     "static/js/main.ca4ed3e3.js"
   ]
 }
