@@ -1,3 +1,4 @@
+import KitchenSinkExampleCard from "./components/Cards";
 import UncontrolledExample from "./components/Carousel";
 import UncontrolledExampleReviews from "./components/CarouselReviews";
 import Footer from "./components/Footer";
@@ -13,10 +14,11 @@ function App() {
   return (
     <div>
       <ColorSchemesExample />
-      <SectionHome />
-      <SectionConditions />
-      <UncontrolledExample />
-      <UncontrolledExampleReviews />
+      {/* <SectionHome /> */}
+      {/* <SectionConditions /> */}
+      {/* <UncontrolledExample /> */}
+      {/* <UncontrolledExampleReviews /> */}
+      <KitchenSinkExampleCard/>
       <KitchenSinkExample />
       <ColorSchemesExample />
       <Footer />

@@ -1,0 +1,37 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 428px;
+  .card-body {
+    padding: 0px 16px;
+    font-size: 20px;
+    font-family: Rubik;
+    font-weight: bold;
+    h5 {
+      margin: 15px 0 0 0;
+    }
+  }
+  .list-group-item {
+    font-size: 16px;
+    font-family: Lato;
+    padding: 5px 16px;
+  }
+  .card-link {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 230px;
+    height: 46px;
+    background-color: #ff7236;
+    border-radius: 25px;
+    font-size: 14px;
+    font-family: Lato;
+    text-decoration: none;
+
+    p {
+      margin: 0;
+      color: white;
+    }
+  }
+}
