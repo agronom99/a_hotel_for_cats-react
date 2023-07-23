@@ -11,7 +11,7 @@
     "rating": 4
   },
   {
-    "id": "0",
+    "id": "1",
     "imageUrl": "https://i.ibb.co/7vPc9Ts/Rectangle462.jpg",
     "title": "Економ плюс",
 
@@ -24,7 +24,7 @@
     "rating": 4
   },
   {
-    "id": "0",
+    "id": "2",
     "imageUrl": "https://i.ibb.co/xYZ5Yjw/Rectangle463.jpg",
     "title": "Комфорт",
     "sizes": "100x125x180",
@@ -35,7 +35,7 @@
     "rating": 4
   },
   {
-    "id": "0",
+    "id": "3",
     "imageUrl": "https://i.ibb.co/dJYBHs5/Rectangle464.jpg",
     "title": "С`ют",
     "sizes": "125x125x180",
@@ -46,7 +46,7 @@
     "rating": 4
   },
   {
-    "id": "0",
+    "id": "4",
     "imageUrl": "https://i.ibb.co/2snP3Xz/Rectangle465.jpg",
     "title": "Люкс",
     "sizes": "160x160x180",
@@ -57,7 +57,7 @@
     "rating": 4
   },
   {
-    "id": "0",
+    "id": "5",
     "imageUrl": "https://i.ibb.co/fdhyDVY/Rectangle466.jpg",
     "title": "Супер-Люкс",
     "sizes": "180x160x180",

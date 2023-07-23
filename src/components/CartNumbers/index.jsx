@@ -6,7 +6,6 @@ import ListGroup from "react-bootstrap/ListGroup";
 import PawI from "../../assets/img/paw_inv.svg";
 
 function KitchenSinkExampleCard(props) {
-  console.log(props);
   return (
     <>
       <Card className="cards">
