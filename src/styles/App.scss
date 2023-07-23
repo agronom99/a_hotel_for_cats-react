@@ -8,7 +8,9 @@
 @import "section__slider.scss";
 @import "footer.scss";
 @import "map__address.scss";
-@import "cards.scss";
+@import "./components/CardsNumbers";
+@import "./pages/Numbers";
+
 
 
 @media (max-width: 900px) {

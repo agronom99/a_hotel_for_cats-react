@@ -1,0 +1,70 @@
+[
+  {
+    "id": "0",
+    "imageUrl": "https://i.ibb.co/yhqcsRG/Rectangle461.jpg",
+    "title": "Економ",
+    "sizes": "90x70x180",
+    "area": "0,63",
+    "equipment": ["https://i.ibb.co/1sB5Q9q/Vector1.png"],
+    "price": 10,
+    "category": 1,
+    "rating": 4
+  },
+  {
+    "id": "0",
+    "imageUrl": "https://i.ibb.co/7vPc9Ts/Rectangle462.jpg",
+    "title": "Економ плюс",
+
+    "sizes": "90x100x180",
+    "area": "0,9",
+    "equipment": ["https://i.ibb.co/MR09pfb/Vector2.png",
+     "https://i.ibb.co/PZgtvfL/Vector3.png"],
+    "price": 20,
+    "category": 1,
+    "rating": 4
+  },
+  {
+    "id": "0",
+    "imageUrl": "https://i.ibb.co/xYZ5Yjw/Rectangle463.jpg",
+    "title": "Комфорт",
+    "sizes": "100x125x180",
+    "area": "1,13",
+    "equipment": ["https://i.ibb.co/MR09pfb/Vector2.png", "https://i.ibb.co/PZgtvfL/Vector3.png", "https://i.ibb.co/rGLjrp7/Vector4.png"],
+    "price": 25,
+    "category": 1,
+    "rating": 4
+  },
+  {
+    "id": "0",
+    "imageUrl": "https://i.ibb.co/dJYBHs5/Rectangle464.jpg",
+    "title": "С`ют",
+    "sizes": "125x125x180",
+    "area": "1,56",
+    "equipment": ["https://i.ibb.co/MR09pfb/Vector2.png", "https://i.ibb.co/PZgtvfL/Vector3.png", "https://i.ibb.co/rGLjrp7/Vector4.png"],
+    "price": 35,
+    "category": 1,
+    "rating": 4
+  },
+  {
+    "id": "0",
+    "imageUrl": "https://i.ibb.co/2snP3Xz/Rectangle465.jpg",
+    "title": "Люкс",
+    "sizes": "160x160x180",
+    "area": "2,56",
+    "equipment": ["https://i.ibb.co/MR09pfb/Vector2.png", "https://i.ibb.co/PZgtvfL/Vector3.png", "https://i.ibb.co/rGLjrp7/Vector4.png","https://i.ibb.co/p0FHdzb/Vector5.png"],
+    "price": 50,
+    "category": 1,
+    "rating": 4
+  },
+  {
+    "id": "0",
+    "imageUrl": "https://i.ibb.co/fdhyDVY/Rectangle466.jpg",
+    "title": "Супер-Люкс",
+    "sizes": "180x160x180",
+    "area": "2,88",
+    "equipment": ["https://i.ibb.co/MR09pfb/Vector2.png", "https://i.ibb.co/PZgtvfL/Vector3.png", "https://i.ibb.co/rGLjrp7/Vector4.png","https://i.ibb.co/p0FHdzb/Vector5.png"],
+    "price": 60,
+    "category": 1,
+    "rating": 4
+  }
+]

@@ -1,8 +1,10 @@
 .cards {
+  margin: 25px;
   display: flex;
   flex-direction: column;
   width: 270px;
   height: 428px;
+  // 
   .card-body {
     padding: 0px 16px;
     font-size: 20px;
@@ -28,6 +30,7 @@
     font-size: 14px;
     font-family: Lato;
     text-decoration: none;
+    margin-top: 5px;
 
     p {
       margin: 0;
