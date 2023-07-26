@@ -1,6 +1,41 @@
-.cart-numbers{
+.cart-numbers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px;
+  .numbers-title {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 50px;
+    width: 100%;
+    justify-content: space-around;
+
+    h1 {
+      font-size: 36px;
+      font-family: Rubik;
+      font-weight: bold;
+    }
+    .sort__label {
+      width: 196px;
+      height: 40px;
+      border-radius: 25px;
+      border: 3px;
+      border-color: black;
+      box-shadow: 0px 5px 10px black;
+      svg {
+        margin: 10px 10px 0 14px;
+      }
+      b {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+.bg-body-tertiary {
+  height: 50px;
+}
+.button-search {
+  box-shadow: 0px 5px 10px black;
+  border-radius: 25px;
+  border-color: white;
+  color: black;
+  font-weight: bold;
 }

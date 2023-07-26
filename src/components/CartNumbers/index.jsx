@@ -1,8 +1,6 @@
 import React from "react";
-// import { useDispatch, useSelector } from "react-redux";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
-// import Cards1 from "../../assets/img/cat/Rectangle46.jpg";
 import PawI from "../../assets/img/paw_inv.svg";
 
 function KitchenSinkExampleCard(props) {

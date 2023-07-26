@@ -1,28 +1,35 @@
-// import UncontrolledExample from "./components/Carousel";
-// 
-// import UncontrolledExampleReviews from "./components/CarouselReviews";
+import React from "react";
 import Footer from "./components/Footer";
-// import Header from "./components/Header";
-import ColorSchemesExample from "./components/Header2";
 import KitchenSinkExample from "./components/MapAddress";
 import Numbers from "./pages/Numbers";
 
-// import SectionHome from "./components/Section__home";
-// import SectionConditions from "./components/Section_conditions";
 import "./styles/App.scss";
+import Home from "./pages/Home";
+import NotFoundBlock from "./components/NotFoundBlock";
+import { Routes, Route } from "react-router-dom";
+import ColorSchemesExample2 from "./components/Header2";
+export const SearchContext = React.createContext();
 
 function App() {
+ 
+
   return (
     <div>
-      <ColorSchemesExample />
-      {/* <SectionHome /> */}
-      {/* <SectionConditions /> */}
-      {/* <UncontrolledExample /> */}
-      {/* <UncontrolledExampleReviews /> */}
-      <Numbers/>
-      <KitchenSinkExample />
-      <ColorSchemesExample />
-      <Footer />
+      <SearchContext.Provider >
+        <ColorSchemesExample2 />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/a_hotel_for_cats-react" element={<Home />} />
+          <Route path="/numbers#why" element={<Home/>} />
+          <Route path="/numbers" element={<Numbers />}/>
+          <Route path="/home/numbers" element={<Numbers/>}/>
+          <Route path="*" element={ <NotFoundBlock />}/>
+        </Routes>
+        <KitchenSinkExample />
+        <ColorSchemesExample2 />
+        <Footer />
+      </SearchContext.Provider>
     </div>
   );
 }

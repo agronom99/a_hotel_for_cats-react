@@ -7,7 +7,7 @@ const Maps =
 
 function KitchenSinkExample() {
   return (
-    <Card>
+    <Card id="find">
       <div>
         <iframe title="map" src={Maps}></iframe>
       </div>
@@ -38,7 +38,6 @@ function KitchenSinkExample() {
 
         <Card.Body className="title-body">
           <Card.Link href="#">
-            {" "}
             <img src={Facebook} alt="Facebook" />
           </Card.Link>
           <Card.Link href="#">
