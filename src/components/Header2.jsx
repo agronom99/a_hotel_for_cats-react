@@ -20,7 +20,7 @@ function ColorSchemesExample2() {
           </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/#why">Чому ми?</Nav.Link>
-            <Nav.Link href="/#numbers">Номера</Nav.Link>
+            <Nav.Link href="/#number">Номера</Nav.Link>
             <Nav.Link href="/#reviews">Відгуки</Nav.Link>
             <Nav.Link href="#find">Як нас знайти</Nav.Link>
           </Nav>

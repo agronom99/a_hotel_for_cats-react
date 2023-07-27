@@ -23,6 +23,7 @@ function App() {
           <Route path="/a_hotel_for_cats-react" element={<Home />} />
           <Route path="/numbers#why" element={<Home/>} />
           <Route path="/numbers" element={<Numbers />}/>
+          <Route path="/a_hotel_for_cats-react/numbers" element={<Numbers />}/>
           <Route path="/home/numbers" element={<Numbers/>}/>
           <Route path="*" element={ <NotFoundBlock />}/>
         </Routes>

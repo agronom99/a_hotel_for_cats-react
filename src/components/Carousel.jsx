@@ -10,7 +10,7 @@ import "../styles/_section__slider.scss";
 
 function UncontrolledExample() {
   return (
-    <div id="numbers" className="section-carousel">
+    <div id="number" className="section-carousel">
       <Carousel>
         <Carousel.Item>
           <img className="d-block  foto" src={Fich} alt="First slide" />
