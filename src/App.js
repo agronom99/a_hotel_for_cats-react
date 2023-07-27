@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div>
-      <SearchContext.Provider >
+      <SearchContext.Provider value={{}} >
         <ColorSchemesExample2 />
         <Routes>
           <Route path="/" element={<Home />} />
