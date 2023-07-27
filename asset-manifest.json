@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/a_hotel_for_cats-react/static/css/main.3fbd6e83.css",
-    "main.js": "/a_hotel_for_cats-react/static/js/main.5888d55f.js",
+    "main.css": "/a_hotel_for_cats-react/static/css/main.da9a214f.css",
+    "main.js": "/a_hotel_for_cats-react/static/js/main.715627a7.js",
     "static/media/Group51.jpg": "/a_hotel_for_cats-react/static/media/Group51.ff5f90c51c2c7f844a15.jpg",
     "static/media/koteika.jpg": "/a_hotel_for_cats-react/static/media/koteika.fa6a274321abdf478dbf.jpg",
     "static/media/Rectangle20.jpg": "/a_hotel_for_cats-react/static/media/Rectangle20.fb185aeec46828bb4831.jpg",
@@ -31,11 +31,11 @@
     "static/media/telegram_logo_icon_144811.svg": "/a_hotel_for_cats-react/static/media/telegram_logo_icon_144811.86229be21dda891fbb10cb9591894d2e.svg",
     "static/media/Rectangle50.svg": "/a_hotel_for_cats-react/static/media/Rectangle50.1e91d3b2ad24ab2dfa9f.svg",
     "static/media/Ellipse12.svg": "/a_hotel_for_cats-react/static/media/Ellipse12.03cf1ee375055292891ef6a10ac86235.svg",
-    "main.3fbd6e83.css.map": "/a_hotel_for_cats-react/static/css/main.3fbd6e83.css.map",
-    "main.5888d55f.js.map": "/a_hotel_for_cats-react/static/js/main.5888d55f.js.map"
+    "main.da9a214f.css.map": "/a_hotel_for_cats-react/static/css/main.da9a214f.css.map",
+    "main.715627a7.js.map": "/a_hotel_for_cats-react/static/js/main.715627a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fbd6e83.css",
-    "static/js/main.5888d55f.js"
+    "static/css/main.da9a214f.css",
+    "static/js/main.715627a7.js"
   ]
 }
