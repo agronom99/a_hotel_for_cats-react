@@ -4,8 +4,8 @@ const initialState = {
   categoryId: 0,
   currentPage:1,
   sort: {
-    name: "популярності",
-    sortProperty: "rating",
+    name: "площі",
+    sortProperty: "area",
   },
 };
 

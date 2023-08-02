@@ -1,21 +1,35 @@
 import React from "react";
 import CartNumbers from "../components/CartNumbers/index";
+import { useSelector, useDispatch } from "react-redux";
+import { setCategoryId, setCurrentPage } from "../redux/slices/filterSlice";
 // import numbers from "../assets/numbers.json";
 import Sort from "../components/ButtonSelection";
+import { current } from "@reduxjs/toolkit";
 
 function Numbers() {
-  const [sortType, setSortType] = React.useState({
-    name: "площі",
-    sortProperty: "area",
-  });
+  const dispatch = useDispatch();
+  const categoryId = useSelector((state) => state.filter.categoryId);
+  const sortType = useSelector((state) => state.filter.sort.sortProperty);
+  const [isLoading, setIsLoading] = React.useState(true);
+  const [currentPage, setCurrentPage] = React.useState(1);
+
+  const onChangeCategory = (id) => {
+    dispatch(setCategoryId(id));
+  };
 
   // Визиває об'єкти з бекенда (Мокапі)
   const [items, setItems] = React.useState([]);
-
   React.useEffect(() => {
+    setIsLoading(true);
+
+    const sortBy = sortType.replace("-", "");
+    const order = sortType.includes("-") ? "asc" : "desc";
+    const category = categoryId > 0 ? `category=${categoryId}` : "";
+    // const search = serchValue ? `&search=${searchValue}` : "";
+
     fetch(
-      `https://6436f7ad8205915d34018d30.mockapi.io/items
-      `,
+      `https://6436f7ad8205915d34018d30.mockapi.io/items?page=${currentPage}&sortBy=${sortBy}&order=${order}
+      `
     )
       .then((res) => res.json())
       .then((arr) => {
@@ -33,7 +47,7 @@ function Numbers() {
         </div>
       </div>
       <div>
-        <Sort value={sortType} onClickSort={(i) => setSortType} />
+        <Sort />
         <div style={{ display: "flex", flexWrap: "wrap" }}>
           {items.map((obj) => (
             <CartNumbers
