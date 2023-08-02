@@ -1,14 +1,20 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
 import CartNumbers from "../components/CartNumbers/index";
 import { useSelector, useDispatch } from "react-redux";
 import { setCategoryId, setCurrentPage } from "../redux/slices/filterSlice";
-// import numbers from "../assets/numbers.json";
+import equipmentText from "../assets/equipmentText.json";
 import Sort from "../components/ButtonSelection";
 import { current } from "@reduxjs/toolkit";
+import FiltrPrice from "../components/FiltrPrice";
+import FiltrArea from "../components/FiltrArea";
+import FiltrEquipment from "../components/FiltrEquipment";
+
+
 
 function Numbers() {
   const dispatch = useDispatch();
-  const {categoryId, sort} = useSelector((state) => state.filter);
+  const { categoryId, sort } = useSelector((state) => state.filter);
   // const sortType = useSelector((state) => state.filter.sort.sortProperty);
   const [isLoading, setIsLoading] = React.useState(true);
   const [currentPage, setCurrentPage] = React.useState(1);
@@ -43,7 +49,28 @@ function Numbers() {
       <div className="numbers-title">
         <div>
           <h1>Наші номера</h1>
-          <div className="filter">filtr</div>
+          <div className="filter">
+            <FiltrPrice />
+            <p style={{ marginTop: "40px" }}>Площа:</p>
+            {items.map((obj) => (
+              <FiltrArea key={obj.id} area={obj.area} />
+            ))}
+            <p style={{ marginTop: "40px" }}>Оснащеня номера:</p>
+            {equipmentText.map((obj) => (
+              <FiltrEquipment key={obj.num} equipmentText={obj.text} />
+            ))}
+            <Button
+              variant="outline-warning"
+              style={{
+                width: "185px",
+                color: "black",
+                borderRadius: "25px",
+                marginTop: "42px",
+              }}
+            >
+              Скинути фільтр
+            </Button>{" "}
+          </div>
         </div>
       </div>
       <div>
