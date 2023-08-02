@@ -7,8 +7,8 @@ const list = [
   { name: "площі(↑)", sortProperty: "-area" },
   { name: "вартості(↓)", sortProperty: "price" },
   { name: "вартості(↑)", sortProperty: "-price" },
-  { name: "класу(↑)", sortProperty: "rating" },
-  { name: "класу(↓)", sortProperty: "-rating" },
+  { name: "класу(↑)", sortProperty: "-rating" },
+  { name: "класу(↓)", sortProperty: "rating" },
 ];
 
 const Sort = () => {

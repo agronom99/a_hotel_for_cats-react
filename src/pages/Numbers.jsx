@@ -8,8 +8,8 @@ import { current } from "@reduxjs/toolkit";
 
 function Numbers() {
   const dispatch = useDispatch();
-  const categoryId = useSelector((state) => state.filter.categoryId);
-  const sortType = useSelector((state) => state.filter.sort.sortProperty);
+  const {categoryId, sort} = useSelector((state) => state.filter);
+  // const sortType = useSelector((state) => state.filter.sort.sortProperty);
   const [isLoading, setIsLoading] = React.useState(true);
   const [currentPage, setCurrentPage] = React.useState(1);
 
@@ -22,8 +22,8 @@ function Numbers() {
   React.useEffect(() => {
     setIsLoading(true);
 
-    const sortBy = sortType.replace("-", "");
-    const order = sortType.includes("-") ? "asc" : "desc";
+    const sortBy = sort.sortProperty.replace("-", "");
+    const order = sort.sortProperty.includes("-") ? "asc" : "desc";
     const category = categoryId > 0 ? `category=${categoryId}` : "";
     // const search = serchValue ? `&search=${searchValue}` : "";
 
@@ -36,7 +36,7 @@ function Numbers() {
         setItems(arr);
       });
     window.scrollTo(0, 0);
-  }, [sortType]);
+  }, [sort.sortProperty]);
   // ------------------------------------------
   return (
     <div className="cart-numbers">
