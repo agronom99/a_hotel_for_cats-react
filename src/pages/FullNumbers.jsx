@@ -1,5 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
+import Raw from "../assets/img/paw.svg";
+
 import UncontrolledExample from "../components/Carousel";
 import axios from "axios";
 
@@ -50,7 +53,12 @@ function FullNumbers() {
               </li>
               <li>Ціна на день: {num.price} $</li>
             </ul>
-            <button>Забронировать</button>
+            <Link to="numbers" style={{textDecoration:"none"}}>
+        <button className="main-button-num">
+          <p className="p-promotion">Забронювати</p>
+          <img src={Raw} alt="paw" />
+        </button>
+      </Link>
           </div>
         </div>
       </div>
