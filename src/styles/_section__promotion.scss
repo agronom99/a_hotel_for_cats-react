@@ -1,0 +1,47 @@
+.main-promotion {
+  height: 379px;
+  width: 1170px;
+  margin: 140px auto;
+  background-image: url("../assets/img/Rectangle 49.jpg");
+  .promotion-text{
+    position: relative;
+    bottom: 100px;
+    left: 270px;
+    width: 320px;
+    h3{
+        font-family: Rubik;
+        font-weight: bold;
+        font-size: 36px;
+    }
+    h1{
+        font-family: Rubik;
+        font-weight: bold;
+        font-size: 56px; 
+    }
+    h2{
+        font-family: Lato;
+        // font-weight: bold;
+        font-size: 16px; 
+    }
+    .main-button-promotion {
+        width: 206px;
+        height: 50px;
+        border-radius: 25px;
+        margin: 40px 0 0 198px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: none;
+        .p-promotion {
+          font-family: Lato;
+          font-weight: 700;
+          font-size: 22px;
+          margin: 1px 0 0 10px;
+        }
+        img {
+          width: 36px;
+          height: 36px;
+        }
+      }
+  }
+}

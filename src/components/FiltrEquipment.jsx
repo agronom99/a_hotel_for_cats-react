@@ -2,15 +2,33 @@ import React from "react";
 import Form from "react-bootstrap/Form";
 
 
-const FiltrEquipment = (props) => {
+const FiltrEquipment = () => {
   return (
     <div className="filtr_equipment">
       <Form.Check
         inline
-        label={props.equipmentText}
+        label="Пустий номер"
         name="group1"
-        // type={type}
-        // id={`inline-${type}-1`}
+      />
+        <Form.Check
+        inline
+        label="Лежак"
+        name="group1"
+      />
+        <Form.Check
+        inline
+        label="Когтіточка"
+        name="group1"
+      />
+        <Form.Check
+        inline
+        label="Ігровий комплекс"
+        name="group1"
+      />
+        <Form.Check
+        inline
+        label="Хатинка"
+        name="group1"
       />
     </div>
   );

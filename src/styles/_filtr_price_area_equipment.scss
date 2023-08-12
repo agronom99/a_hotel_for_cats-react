@@ -2,6 +2,7 @@
     margin-top: 60px;
     div{
         display: flex;
+        
         input{
             width: 100px;
             height: 24px;
@@ -15,5 +16,10 @@
     margin-top: 20px;
 }
 .filtr_equipment{
+    display: flex;
+    flex-direction: column;
     margin-top: 20px;
+    div{
+        margin-top: 20px;
+    }
 }

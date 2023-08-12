@@ -9,8 +9,8 @@ import { current } from "@reduxjs/toolkit";
 import FiltrPrice from "../components/FiltrPrice";
 import FiltrArea from "../components/FiltrArea";
 import FiltrEquipment from "../components/FiltrEquipment";
-
-
+import SectionPromotion from "../components/Section__promotion";
+import { Link } from "react-router-dom";
 
 function Numbers() {
   const dispatch = useDispatch();
@@ -44,7 +44,16 @@ function Numbers() {
     window.scrollTo(0, 0);
   }, [sort.sortProperty]);
   // ------------------------------------------
+
+  // кнопка скинути фільтр
+  const removeFilter = (n) => {
+    console.log("привіт", n);
+  };
+  // ----------------------------
+ 
+
   return (
+    <>
     <div className="cart-numbers">
       <div className="numbers-title">
         <div>
@@ -56,10 +65,11 @@ function Numbers() {
               <FiltrArea key={obj.id} area={obj.area} />
             ))}
             <p style={{ marginTop: "40px" }}>Оснащеня номера:</p>
-            {equipmentText.map((obj) => (
-              <FiltrEquipment key={obj.num} equipmentText={obj.text} />
-            ))}
+            
+              <FiltrEquipment />
+          
             <Button
+              onClick={() => removeFilter(111)}
               variant="outline-warning"
               style={{
                 width: "185px",
@@ -70,13 +80,25 @@ function Numbers() {
             >
               Скинути фільтр
             </Button>{" "}
+            {/* <Button onClick={()=> console.log("plus")}
+              variant="outline-warning"
+              style={{
+                width: "185px",
+                color: "black",
+                borderRadius: "25px",
+                marginTop: "42px",
+              }}
+            >
+              Скинути фільтр
+            </Button>{" "} */}
           </div>
         </div>
       </div>
       <div>
         <Sort />
-        <div style={{ display: "flex", flexWrap: "wrap" }}>
+        <div style={{ display: "flex", flexWrap: "wrap" }} >
           {items.map((obj) => (
+            <Link key={obj.id} to={`/home/numbers/fullNumbers/${obj.id}`} style={{textDecoration:"none"}}>
             <CartNumbers
               key={obj.id}
               title={obj.title}
@@ -86,10 +108,14 @@ function Numbers() {
               equipment={obj.equipment}
               price={obj.price}
             />
+            </Link>
           ))}
         </div>
       </div>
     </div>
+    <SectionPromotion/>
+    </>
+    
   );
 }
 

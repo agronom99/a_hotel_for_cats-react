@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { setSort } from "../redux/slices/filterSlice";
+import { useClickOutside } from "../hooks/useClickOutside";
 
 const list = [
   { name: "площі(↓)", sortProperty: "area" },
@@ -16,20 +17,27 @@ const Sort = () => {
   const sort = useSelector((state) => state.filter.sort);
 
   const [open, setOpen] = React.useState(false);
-  
-  // const sortRef = React.useRef();
+
 
   const onClickListItem = (obj) => {
-    dispatch(setSort(obj))
+    dispatch(setSort(obj));
     setOpen(false);
   };
+  // закриває меню в не зони
+  const menuRef = useRef(null);
+  useClickOutside(menuRef, () => {
+    if (open) setTimeout(() => setOpen(false), 500);
+    setOpen(false);
+  });
 
   return (
     <div
-      // ref={sortRef}
+      ref={menuRef}
+
       className="sort"
     >
-      <div className="sort__label">
+      <div className="sort__label" 
+      >
         <svg
           width="10"
           height="6"
