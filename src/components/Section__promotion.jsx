@@ -13,9 +13,9 @@ const SectionPromotion = () => {
       <h2>
         Акція діє при розміщенні: <br />У кімнатах "Lux" та "Super-Lux”{" "}
       </h2>
-      <Link to="numbers" style={{textDecoration:"none"}}>
+      <Link to="/booking" style={{textDecoration:"none"}}>
         <button className="main-button-promotion">
-          <p className="p-promotion">Забронювати</p>
+          <p className="p-promotion">Бронювати</p>
           <img src={Raw} alt="paw" />
         </button>
       </Link>

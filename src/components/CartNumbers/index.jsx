@@ -23,8 +23,8 @@ function KitchenSinkExampleCard(props) {
           <ListGroup.Item>Ціна на день: {props.price} $</ListGroup.Item>
         </ListGroup>
         <Card.Body>
-          <Card.Link href="#">
-            <p> Забронювати</p>
+          <Card.Link to="/booking">
+            <p>Бронювання</p>
             <img src={PawI} alt="paw" style={{ width: "34px" }} />
           </Card.Link>
         </Card.Body>

@@ -4,7 +4,7 @@
   flex-direction: column;
   width: 270px;
   height: 428px;
-  // 
+  //
   .card-body {
     padding: 0px 16px;
     font-size: 20px;
@@ -25,9 +25,11 @@
     align-items: center;
     width: 230px;
     height: 46px;
-    background-color: #ff7236;
+    background-color: var(--yellow-color);
+    color: var(--white-color);
+    box-shadow: 0px 5px 3px var(--yellow-color-b);
     border-radius: 25px;
-    font-size: 14px;
+    font-size: 18px;
     font-family: Lato;
     text-decoration: none;
     margin-top: 5px;

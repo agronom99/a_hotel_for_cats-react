@@ -1,12 +1,17 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-import Raw from "../assets/img/paw.svg";
-
-import UncontrolledExample from "../components/Carousel";
 import axios from "axios";
 
+
+import Raw from "../assets/img/paw.svg";
+import PawN from "../assets/img/pawN.svg";
+
+import UncontrolledExample from "../components/Carousel";
+
 function FullNumbers() {
+  // const [items, setItems] = React.useState([]);
+
   const [num, setNumbers] = React.useState();
   const { id } = useParams();
 
@@ -28,10 +33,11 @@ function FullNumbers() {
   if (!num) {
     return "Загрузка ...";
   }
-
+  window.scrollTo(0, 0);
   return (
     <>
       <div className="full-numbers">
+        <img className="paw-n" src={PawN} alt="PawC"></img>
         <div className="img-text">
           <img src={num.imageUrl} alt="img" />
           <div className="img-text-text">
@@ -53,12 +59,13 @@ function FullNumbers() {
               </li>
               <li>Ціна на день: {num.price} $</li>
             </ul>
-            <Link to="numbers" style={{textDecoration:"none"}}>
-        <button className="main-button-num">
-          <p className="p-promotion">Забронювати</p>
-          <img src={Raw} alt="paw" />
-        </button>
-      </Link>
+              <Link 
+               to="/booking" style={{textDecoration:"none"}}>
+                <button   className="main-button-num">
+                  <p className="p-promotion">Бронювання</p>
+                  <img src={Raw} alt="paw" />
+                </button>
+              </Link>
           </div>
         </div>
       </div>
