@@ -5,12 +5,14 @@
   .paw-b {
     position: relative;
     float: left;
+    width: 117px;
+    height: 117px;
   }
-  .vector-14 {
+  .vector-b {
     position: relative;
     float: right;
-    padding-right: 40px;
-    padding-top: 40px;
+    right: 40px;
+    top: 40px;
     cursor: pointer;
   }
   list-style: none;
@@ -80,9 +82,8 @@
       font-size: 22px;
       margin: 1px 0 0 10px;
     }
-    img {
+    svg {
       width: 36px;
-      height: 36px;
     }
   }
 }

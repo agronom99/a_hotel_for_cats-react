@@ -11,6 +11,7 @@ import ColorSchemesExample2 from "./components/Header2";
 import FullNumbers from "./pages/FullNumbers";
 import Booking from "./pages/Booking";
 import Popap from "./pages/Popap";
+import ContactForm from "./components/ContactForm";
 // import Grid from "./pages/Grid";
 export const SearchContext = React.createContext();
 
@@ -32,6 +33,8 @@ function App() {
           <Route path="/home/numbers/fullNumbers/:id" element={<FullNumbers/>} />
           <Route path="/booking" element={<Booking />} />
           <Route path="/popap" element={<Popap />} />
+          <Route path="/contactform" element={<ContactForm/>} />
+
 
 
 
