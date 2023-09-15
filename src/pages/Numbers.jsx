@@ -2,7 +2,9 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import CartNumbers from "../components/CartNumbers/index";
 import { useSelector, useDispatch } from "react-redux";
-import { setCategoryId, setCurrentPage } from "../redux/slices/filterSlice";
+import { setCategoryId, 
+  setCurrentPage
+ } from "../redux/slices/filterSlice";
 import equipmentText from "../assets/equipmentText.json";
 import Sort from "../components/ButtonSelection";
 import { current } from "@reduxjs/toolkit";

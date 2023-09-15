@@ -12,6 +12,9 @@ import FullNumbers from "./pages/FullNumbers";
 import Booking from "./pages/Booking";
 import Popap from "./pages/Popap";
 import ContactForm from "./components/ContactForm";
+
+// import  {Test}  from './components/Test';
+import { Notifications } from '@mantine/notifications';
 // import Grid from "./pages/Grid";
 export const SearchContext = React.createContext();
 
@@ -19,8 +22,11 @@ function App() {
   window.scrollTo(0, 0);
   return (
     <div>
+     
+
       <SearchContext.Provider value={{}}>
         <ColorSchemesExample2 />
+        <Notifications/>
         <Routes>
           {/* <Route path="/grid" element={<Grid />} /> */}
           <Route path="/" element={<Home />} />

@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Raw from "../assets/img/paw.svg";
+// import Raw from "../assets/img/paw.svg";
 import PawP from "../assets/img/pawP.svg";
-import Vector14 from "../assets/img/Vector 14.svg";
+// import Vector14 from "../assets/img/Vector 14.svg";
 
 const Popap = () => {
   return (
