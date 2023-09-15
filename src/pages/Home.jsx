@@ -7,8 +7,8 @@ import SectionConditions from "../components/Section_conditions";
 const Home = () => {
   return (
     <div>
-      <div class="sprite-container">
-        <div class="sprite-image"></div>
+      <div className="sprite-container">
+        <div className="sprite-image"></div>
       </div>
       <SectionHome />
       <SectionConditions />
