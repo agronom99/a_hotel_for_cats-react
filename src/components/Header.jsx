@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
-// import Nav from "react-bootstrap/Nav";
+import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Logo_Group_50 from "../assets/img/Logo_Group_50.svg";
 import Logo_kot from "../assets/img/KOTEYKA.svg";
 
-function ColorSchemesExample() {
+function Header() {
   return (
     <>
       <Navbar bg="light" data-bs-theme="light">
@@ -18,16 +18,16 @@ function ColorSchemesExample() {
               </div>
             </Link>
           </Navbar.Brand>
-          {/* <Nav className="me-auto">
-            <Nav.Link href="#why">Чому ми?</Nav.Link>
-            <Nav.Link href="#numbers">Номера</Nav.Link>
-            <Nav.Link href="#reviews">Відгуки</Nav.Link>
-            <Nav.Link href="#find">Як нас знайти</Nav.Link>
-          </Nav> */}
+          <Nav className="me-auto">
+            <Nav.Link href="/home/#why">Чому ми?</Nav.Link>
+            <Nav.Link href="/home/#numbers">Номера</Nav.Link>
+            <Nav.Link href="/home/#reviews">Відгуки</Nav.Link>
+            <Nav.Link href="/home/#find">Як нас знайти</Nav.Link>
+          </Nav>
         </Container>
       </Navbar>
     </>
   );
 }
 
-export default ColorSchemesExample;
+export default Header;

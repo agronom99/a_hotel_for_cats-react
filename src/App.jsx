@@ -7,15 +7,12 @@ import "./styles/App.scss";
 import Home from "./pages/Home";
 import NotFoundBlock from "./components/NotFoundBlock";
 import { Routes, Route } from "react-router-dom";
-import ColorSchemesExample2 from "./components/Header2";
+import Header from "./components/Header";
 import FullNumbers from "./pages/FullNumbers";
 import Booking from "./pages/Booking";
 import Popap from "./pages/Popap";
 import ContactForm from "./components/ContactForm";
 
-// import  {Test}  from './components/Test';
-import { Notifications } from '@mantine/notifications';
-// import Grid from "./pages/Grid";
 export const SearchContext = React.createContext();
 
 function App() {
@@ -25,10 +22,8 @@ function App() {
      
 
       <SearchContext.Provider value={{}}>
-        <ColorSchemesExample2 />
-        <Notifications/>
+        <Header />
         <Routes>
-          {/* <Route path="/grid" element={<Grid />} /> */}
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/a_hotel_for_cats-react" element={<Home />} />
@@ -41,14 +36,10 @@ function App() {
           <Route path="/popap" element={<Popap />} />
           <Route path="/contactform" element={<ContactForm/>} />
 
-
-
-
           <Route path="*" element={<NotFoundBlock />} />
         </Routes>
-        {/* <SectionPromotion/> */}
         <KitchenSinkExample />
-        <ColorSchemesExample2 />
+        <Header />
         <Footer />
       </SearchContext.Provider>
     </div>

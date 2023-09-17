@@ -2,7 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
+
+
 function Booking() {
+
+
+ 
   return (
     <>
       <ul className="booking">
@@ -72,8 +77,11 @@ function Booking() {
         <li>
           <input type="text" placeholder="Телефон" />
         </li>
-        <li>
-          <input type="text" placeholder="E-mail" />
+        <li >
+          <input 
+          label="Email"
+          placeholder="your@email.com"
+          />
         </li>
         <li className="booking-li">
           <p>Дата заїзду з:</p>
