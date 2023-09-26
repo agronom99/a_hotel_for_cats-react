@@ -19,10 +19,10 @@ function Header() {
             </Link>
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/home/#why">Чому ми?</Nav.Link>
-            <Nav.Link href="/home/#numbers">Номера</Nav.Link>
-            <Nav.Link href="/home/#reviews">Відгуки</Nav.Link>
-            <Nav.Link href="/home/#find">Як нас знайти</Nav.Link>
+            <Nav.Link href="https://agronom99.github.io/home/#why">Чому ми?</Nav.Link>
+            <Nav.Link href="https://agronom99.github.io/home/#numbers">Номера</Nav.Link>
+            <Nav.Link href="https://agronom99.github.io/home/#reviews">Відгуки</Nav.Link>
+            <Nav.Link href="https://agronom99.github.io/home/#find">Як нас знайти</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

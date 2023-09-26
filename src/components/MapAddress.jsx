@@ -7,7 +7,7 @@ const Maps =
 
 function KitchenSinkExample() {
   return (
-    <Card id="find" style={{marginTop:"140px"}}>
+    <Card id="#find" style={{marginTop:"140px"}}>
       <div>
         <iframe title="map" src={Maps}></iframe>
       </div>

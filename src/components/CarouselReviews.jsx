@@ -10,7 +10,7 @@ function UncontrolledExampleReviews() {
         <img className="d-block  fotoR" src={pawR} alt="First slide" />
 
         <Carousel.Caption>
-          <h3 id="reviews" className="carousel-h3">Відгуки</h3>
+          <h3 id="#reviews" className="carousel-h3">Відгуки</h3>
           <div className="blok">
             <div className="ul-R">
               <ul className="ul-li">

@@ -9,9 +9,11 @@ import NotFoundBlock from "./components/NotFoundBlock";
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import FullNumbers from "./pages/FullNumbers";
-import Booking from "./pages/Booking";
+import Booking from "./pages/Booking.jsx";
 import Popap from "./pages/Popap";
 import ContactForm from "./components/ContactForm";
+import { Notifications } from '@mantine/notifications';
+
 
 export const SearchContext = React.createContext();
 
@@ -23,6 +25,7 @@ function App() {
 
       <SearchContext.Provider value={{}}>
         <Header />
+        <Notifications />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
@@ -38,6 +41,8 @@ function App() {
 
           <Route path="*" element={<NotFoundBlock />} />
         </Routes>
+       
+
         <KitchenSinkExample />
         <Header />
         <Footer />
