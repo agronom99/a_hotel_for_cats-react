@@ -7,6 +7,7 @@ import Fich from "../assets/img/fish.svg";
 import Ellipse from "../assets/img/Ellipse12.svg";
 import RawInv from "../assets/img/paw_inv.svg";
 import "../styles/_section__slider.scss";
+import { Link } from "react-router-dom";
 
 function UncontrolledExample() {
   return (
@@ -30,10 +31,12 @@ function UncontrolledExample() {
                   </ul>
                 </li>
                 <li>
+                  <Link to="numbers" style={{textDecoration:"none"}}>
                   <button>
                     <p>Бронювання</p>
                     <img src={RawInv} alt="pawInv" />
                   </button>
+                  </Link>
                 </li>
               </ul>
             </div>

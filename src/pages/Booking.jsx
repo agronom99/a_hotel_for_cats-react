@@ -1,10 +1,13 @@
 import React from "react";
+
 // import { Link } from "react-router-dom";
 import { useForm } from "@mantine/form";
 import { useState } from "react";
 import { sendMessage } from "../api/telegram.tsx";
 import { notifications } from "@mantine/notifications";
 import { Box, TextInput, Button } from "@mantine/core";
+import Popap from "./Popap.jsx";
+
 
 const Booking = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -49,10 +52,9 @@ const Booking = () => {
       await sendMessage(message);
 
       notifications.show({
-        
         title: "Форма відправлена",
-        message: "в Телеграм 😎 ",
-      });
+        message: "в Телеграм 😎 ",}
+      );
     } catch (e) {
       form.setFieldError("email", "phone");
     } finally {
@@ -120,8 +122,8 @@ const Booking = () => {
         <li>
           <h1>Забронювати номер</h1>
         </li>
-      </ul>
-      <form onSubmit={form.onSubmit(handleSubmit)}>
+      
+      <form onSubmit={form.onSubmit(handleSubmit)} style={{margin:'50px'}}>
         <TextInput
           withAsterisk
           label="Ваше ім'я:"
@@ -212,6 +214,7 @@ const Booking = () => {
         </Button>
         {/* </Link> */}
       </form>
+      </ul>
     </Box>
   );
 };

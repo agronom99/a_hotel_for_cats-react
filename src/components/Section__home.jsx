@@ -10,7 +10,7 @@ const Section__home = () => {
       <h2>Затишний готель для котів та кішок</h2>
       <Link to="numbers" style={{textDecoration:"none"}}>
       <button  className="main-button">
-        <p style={{margin:"1px 0 0 15px"}}>Номера</p>
+        <p style={{margin:"1px 0 0 15px"}}>Забронювати номер</p>
         <img src={Raw} alt="paw" />
       </button>
       </Link>
