@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/a_hotel_for_cats-react/static/css/main.05f6b992.css",
-    "main.js": "/a_hotel_for_cats-react/static/js/main.f2c61f17.js",
+    "main.js": "/a_hotel_for_cats-react/static/js/main.31123ded.js",
     "static/media/Group51.jpg": "/a_hotel_for_cats-react/static/media/Group51.ff5f90c51c2c7f844a15.jpg",
     "static/media/koteika.jpg": "/a_hotel_for_cats-react/static/media/koteika.fa6a274321abdf478dbf.jpg",
     "static/media/Rectangle20.jpg": "/a_hotel_for_cats-react/static/media/Rectangle20.fb185aeec46828bb4831.jpg",
@@ -36,10 +36,10 @@
     "static/media/Rectangle50.svg": "/a_hotel_for_cats-react/static/media/Rectangle50.1e91d3b2ad24ab2dfa9f.svg",
     "static/media/Ellipse12.svg": "/a_hotel_for_cats-react/static/media/Ellipse12.03cf1ee375055292891ef6a10ac86235.svg",
     "main.05f6b992.css.map": "/a_hotel_for_cats-react/static/css/main.05f6b992.css.map",
-    "main.f2c61f17.js.map": "/a_hotel_for_cats-react/static/js/main.f2c61f17.js.map"
+    "main.31123ded.js.map": "/a_hotel_for_cats-react/static/js/main.31123ded.js.map"
   },
   "entrypoints": [
     "static/css/main.05f6b992.css",
-    "static/js/main.f2c61f17.js"
+    "static/js/main.31123ded.js"
   ]
 }
