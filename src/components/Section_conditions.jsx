@@ -12,7 +12,7 @@ const SectionConditions = () => {
     <div>
       <section className="conditions">
         <img className="raw" src={paw} alt="raw" />
-        <h2 id="https://agronom99.github.io/home/why">Чому ми?</h2>
+        <h2>Чому ми?</h2>
         <ul>
           <li>
             <img src={icon1} alt="rectable 9" />

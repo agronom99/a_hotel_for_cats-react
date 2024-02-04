@@ -6,7 +6,6 @@ import { useState } from "react";
 import { sendMessage } from "../api/telegram.tsx";
 import { notifications } from "@mantine/notifications";
 import { Box, TextInput, Button } from "@mantine/core";
-import Popap from "./Popap.jsx";
 
 
 const Booking = () => {

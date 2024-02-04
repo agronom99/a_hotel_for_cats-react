@@ -34,7 +34,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/a_hotel_for_cats-react" element={<Home />} />
           <Route path="/a_hotel_for_cats-react/why" element={<SectionConditions />} />
-          <Route path="/a_hotel_for_cats-react/#number" element={<UncontrolledExample />} />
+          <Route path="/a_hotel_for_cats-react/number" element={<UncontrolledExample />} />
           <Route path="/a_hotel_for_cats-react/reviews" element={<UncontrolledExampleReviews />} />
           <Route path="/a_hotel_for_cats-react/find" />
           <Route path="/numbers" element={<Numbers />} />
