@@ -101,7 +101,7 @@ const Booking = () => {
           </svg>
         </li>
         <li>
-         <a href="a_hotel_for_cats-react/number/numbers">
+         <a href="a_hotel_for_cats-react/numbers">
             <svg
               className="vector-b"
               xmlns="http://www.w3.org/2000/svg"

@@ -13,9 +13,7 @@ import Booking from "./pages/Booking.jsx";
 import Popap from "./pages/Popap";
 import ContactForm from "./components/ContactForm";
 import { Notifications } from '@mantine/notifications';
-import SectionConditions from "./components/Section_conditions";
-import UncontrolledExample from "./components/Carousel";
-import UncontrolledExampleReviews from "./components/CarouselReviews";
+
 
 
 export const SearchContext = React.createContext();

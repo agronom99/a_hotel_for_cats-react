@@ -1,13 +1,9 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import CartNumbers from "../components/CartNumbers/index";
-import { useSelector, useDispatch } from "react-redux";
-import { setCategoryId, 
-  setCurrentPage
- } from "../redux/slices/filterSlice";
-import equipmentText from "../assets/equipmentText.json";
+import { useSelector } from "react-redux";
+// import { setCategoryId } from "../redux/slices/filterSlice";
 import Sort from "../components/ButtonSelection";
-import { current } from "@reduxjs/toolkit";
 import FiltrPrice from "../components/FiltrPrice";
 import FiltrArea from "../components/FiltrArea";
 import FiltrEquipment from "../components/FiltrEquipment";
@@ -15,36 +11,38 @@ import SectionPromotion from "../components/Section__promotion";
 import { Link } from "react-router-dom";
 
 function Numbers() {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const { categoryId, sort } = useSelector((state) => state.filter);
   // const sortType = useSelector((state) => state.filter.sort.sortProperty);
+  const { currentPage } = useSelector((state) => state.filter);
   const [isLoading, setIsLoading] = React.useState(true);
-  const [currentPage, setCurrentPage] = React.useState(1);
 
-  const onChangeCategory = (id) => {
-    dispatch(setCategoryId(id));
-  };
+  // const onChangeCategory = (id) => {
+  //   dispatch(setCategoryId(id));
+  // };
 
   // Визиває об'єкти з бекенда (Мокапі)
   const [items, setItems] = React.useState([]);
   React.useEffect(() => {
     setIsLoading(true);
-
+  
     const sortBy = sort.sortProperty.replace("-", "");
     const order = sort.sortProperty.includes("-") ? "asc" : "desc";
-    const category = categoryId > 0 ? `category=${categoryId}` : "";
-    // const search = serchValue ? `&search=${searchValue}` : "";
-
+    // const category = categoryId > 0 ? `category=${categoryId}` : "";
+  
     fetch(
-      `https://6436f7ad8205915d34018d30.mockapi.io/items?page=${currentPage}&sortBy=${sortBy}&order=${order}
-      `
+      `https://6436f7ad8205915d34018d30.mockapi.io/items?page=${currentPage}&sortBy=${sortBy}&order=${order}`
     )
       .then((res) => res.json())
       .then((arr) => {
         setItems(arr);
+      })
+      .finally(() => {
+        setIsLoading(false);
       });
+  
     window.scrollTo(0, 0);
-  }, [sort.sortProperty]);
+  }, [sort.sortProperty, categoryId, currentPage, setIsLoading]);
   // ------------------------------------------
 
   // кнопка скинути фільтр
@@ -82,17 +80,7 @@ function Numbers() {
             >
               Скинути фільтр
             </Button>{" "}
-            {/* <Button onClick={()=> console.log("plus")}
-              variant="outline-warning"
-              style={{
-                width: "185px",
-                color: "black",
-                borderRadius: "25px",
-                marginTop: "42px",
-              }}
-            >
-              Скинути фільтр
-            </Button>{" "} */}
+            
           </div>
         </div>
       </div>
