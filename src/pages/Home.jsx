@@ -9,9 +9,9 @@ const Home = () => {
   return (
     <div>
       <SectionHome />
-      <div className="sprite-container">
+      {/* <div className="sprite-container">
         <div className="sprite-image"></div>
-      </div>
+      </div> */}
       <SectionConditions />
       <UncontrolledExample />
       <UncontrolledExampleReviews />

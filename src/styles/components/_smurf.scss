@@ -4,15 +4,15 @@
     align-items:end;
 }
 
-.sprite-image {
-    height: 123px;
-    width: 70px;
-    background: url(../../assets/img/smur-sprite.png) 0px 0px;
-    animation: play 0.8s steps(16) infinite,
-        step 10s linear infinite;
-    position: absolute;
-    left: 0;
-}
+// .sprite-image {
+//     height: 123px;
+//     width: 70px;
+//     background: url(../../assets/img/smur-sprite.png) 0px 0px;
+//     animation: play 0.8s steps(16) infinite,
+//         step 10s linear infinite;
+//     position: absolute;
+//     left: 0;
+// }
 
 @keyframes play {
     100% {
