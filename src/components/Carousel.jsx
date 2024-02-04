@@ -60,10 +60,14 @@ function UncontrolledExample() {
                   </ul>
                 </li>
                 <li>
+                <Link to="numbers" style={{textDecoration:"none"}}>
+
                   <button>
                     <p>Бронювання</p>
                     <img src={RawInv} alt="pawInv" />
                   </button>
+                  </Link>
+
                 </li>
               </ul>
             </div>
@@ -87,10 +91,14 @@ function UncontrolledExample() {
                   </ul>
                 </li>
                 <li>
+                <Link to="numbers" style={{textDecoration:"none"}}>
+
                   <button>
                     <p>Бронювання</p>
                     <img src={RawInv} alt="pawInv" />
                   </button>
+                  </Link>
+
                 </li>
               </ul>
             </div>

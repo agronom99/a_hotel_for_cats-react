@@ -102,22 +102,24 @@ const Booking = () => {
           </svg>
         </li>
         <li>
-          <svg
-            className="vector-b"
-            xmlns="http://www.w3.org/2000/svg"
-            width="18"
-            height="18"
-            viewBox="0 0 18 18"
-            fill="none"
-          >
-            <path
-              d="M1 1L17 17M17 1L1 17"
-              stroke="#1A212F"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
+         <a href="a_hotel_for_cats-react/number/numbers">
+            <svg
+              className="vector-b"
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 18 18"
+              fill="none"
+            >
+              <path
+                d="M1 1L17 17M17 1L1 17"
+                stroke="#1A212F"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+         </a>
         </li>
         <li>
           <h1>Забронювати номер</h1>
