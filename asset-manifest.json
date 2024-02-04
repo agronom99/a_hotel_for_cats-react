@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/a_hotel_for_cats-react/static/css/main.480d76b1.css",
-    "main.js": "/a_hotel_for_cats-react/static/js/main.5fbe79b1.js",
+    "main.css": "/a_hotel_for_cats-react/static/css/main.05f6b992.css",
+    "main.js": "/a_hotel_for_cats-react/static/js/main.555de824.js",
     "static/media/Group51.jpg": "/a_hotel_for_cats-react/static/media/Group51.ff5f90c51c2c7f844a15.jpg",
     "static/media/koteika.jpg": "/a_hotel_for_cats-react/static/media/koteika.fa6a274321abdf478dbf.jpg",
     "static/media/Rectangle20.jpg": "/a_hotel_for_cats-react/static/media/Rectangle20.fb185aeec46828bb4831.jpg",
     "static/media/Rectangle 49.jpg": "/a_hotel_for_cats-react/static/media/Rectangle 49.9a3385bf0dedfdccebb6.jpg",
     "static/media/Rectangle20(3).jpg": "/a_hotel_for_cats-react/static/media/Rectangle20(3).9cb49b70dae970c6ece9.jpg",
     "static/media/Rectangle20(2).jpg": "/a_hotel_for_cats-react/static/media/Rectangle20(2).5156fa3df2ffcff20bdd.jpg",
-    "static/media/smur-sprite.png": "/a_hotel_for_cats-react/static/media/smur-sprite.23dab46b4a99817fe457.png",
     "static/media/koteika320.jpg": "/a_hotel_for_cats-react/static/media/koteika320.ade8a675a4ca5ae84f54.jpg",
     "static/media/icon5.svg": "/a_hotel_for_cats-react/static/media/icon5.5a7e75f483a0da2794a955bad79725f2.svg",
     "static/media/icon6.svg": "/a_hotel_for_cats-react/static/media/icon6.9a95b0b1bce167c6e385ee3971ed7fbf.svg",
@@ -36,11 +35,11 @@
     "static/media/telegram_logo_icon_144811.svg": "/a_hotel_for_cats-react/static/media/telegram_logo_icon_144811.86229be21dda891fbb10cb9591894d2e.svg",
     "static/media/Rectangle50.svg": "/a_hotel_for_cats-react/static/media/Rectangle50.1e91d3b2ad24ab2dfa9f.svg",
     "static/media/Ellipse12.svg": "/a_hotel_for_cats-react/static/media/Ellipse12.03cf1ee375055292891ef6a10ac86235.svg",
-    "main.480d76b1.css.map": "/a_hotel_for_cats-react/static/css/main.480d76b1.css.map",
-    "main.5fbe79b1.js.map": "/a_hotel_for_cats-react/static/js/main.5fbe79b1.js.map"
+    "main.05f6b992.css.map": "/a_hotel_for_cats-react/static/css/main.05f6b992.css.map",
+    "main.555de824.js.map": "/a_hotel_for_cats-react/static/js/main.555de824.js.map"
   },
   "entrypoints": [
-    "static/css/main.480d76b1.css",
-    "static/js/main.5fbe79b1.js"
+    "static/css/main.05f6b992.css",
+    "static/js/main.555de824.js"
   ]
 }
