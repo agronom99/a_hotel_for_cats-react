@@ -5,30 +5,36 @@ import SectionHome from "../components/Section__home";
 import SectionConditions from "../components/Section_conditions";
 
 const Home = () => {
+  // Отримати шлях без повного URL
+  const path = window.location.pathname;
 
-  const section =
-    window.location.pathname === "/a_hotel_for_cats-react/why" ? (
-      <SectionConditions />
-    ) : window.location.pathname === "/a_hotel_for_cats-react/number" ? (
-      <UncontrolledExample />
-    ) : window.location.pathname === "/a_hotel_for_cats-react/reviews" ? (
-      <UncontrolledExampleReviews />
-    ) : window.location.pathname === "/a_hotel_for_cats-react/find" ? (
-      <SectionHome />
-    ) : (
-      <>
-        <SectionHome />
-        <SectionConditions />
-        <UncontrolledExample />
-        <UncontrolledExampleReviews />
-      </>
-    );
+  let section;
 
-  return (
-    <div>
-      {section }
-    </div>
-  );
+  switch (true) {
+    case path.includes("why"):
+      section = <SectionConditions />;
+      break;
+    case path.includes("number"):
+      section = <UncontrolledExample />;
+      break;
+    case path.includes("reviews"):
+      section = <UncontrolledExampleReviews />;
+      break;
+    case path.includes("find"):
+      section = <SectionHome />;
+      break;
+    default:
+      section = (
+        <>
+          <SectionHome />
+          <SectionConditions />
+          <UncontrolledExample />
+          <UncontrolledExampleReviews />
+        </>
+      );
+  }
+
+  return <div>{section}</div>;
 };
 
 export default Home;
