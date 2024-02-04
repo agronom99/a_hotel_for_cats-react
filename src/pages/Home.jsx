@@ -5,13 +5,28 @@ import SectionHome from "../components/Section__home";
 import SectionConditions from "../components/Section_conditions";
 
 const Home = () => {
-  window.scrollTo(0, 0);
+
+  const section =
+    window.location.pathname === "/a_hotel_for_cats-react/why" ? (
+      <SectionConditions />
+    ) : window.location.pathname === "/a_hotel_for_cats-react/number" ? (
+      <UncontrolledExample />
+    ) : window.location.pathname === "/a_hotel_for_cats-react/reviews" ? (
+      <UncontrolledExampleReviews />
+    ) : window.location.pathname === "/a_hotel_for_cats-react/find" ? (
+      <SectionHome />
+    ) : (
+      <>
+        <SectionHome />
+        <SectionConditions />
+        <UncontrolledExample />
+        <UncontrolledExampleReviews />
+      </>
+    );
+
   return (
     <div>
-      <SectionHome />
-      <SectionConditions />
-      <UncontrolledExample />
-      <UncontrolledExampleReviews />
+      {section }
     </div>
   );
 };

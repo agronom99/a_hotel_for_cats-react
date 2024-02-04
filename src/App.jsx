@@ -33,10 +33,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/a_hotel_for_cats-react" element={<Home />} />
-          <Route path="/a_hotel_for_cats-react/why" element={<SectionConditions />} />
-          <Route path="/a_hotel_for_cats-react/number" element={<UncontrolledExample />} />
-          <Route path="/a_hotel_for_cats-react/reviews" element={<UncontrolledExampleReviews />} />
-          <Route path="/a_hotel_for_cats-react/find" />
+          <Route path="/a_hotel_for_cats-react/why"  element={<Home />}/>
+          <Route path="/a_hotel_for_cats-react/number" element={<Home />} />
+          <Route path="/a_hotel_for_cats-react/reviews" element={<Home/>} />
+          <Route path="/a_hotel_for_cats-react/find" element={<Home/>} />
+          <Route path="/a_hotel_for_cats-react/find/numbers" element={<Numbers />} />
           <Route path="/numbers" element={<Numbers />} />
           <Route path="/a_hotel_for_cats-react/numbers" element={<Numbers />} />
           <Route path="/a_hotel_for_cats-react/number/numbers" element={<Numbers />} />

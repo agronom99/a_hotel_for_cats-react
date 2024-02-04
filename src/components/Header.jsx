@@ -19,6 +19,7 @@ function Header() {
             </Link>
           </Navbar.Brand>
           <Nav className="me-auto">
+         
             <Nav.Link href="/a_hotel_for_cats-react/why">Чому ми?</Nav.Link>
             <Nav.Link href="/a_hotel_for_cats-react/number">Номера</Nav.Link>
             <Nav.Link href="/a_hotel_for_cats-react/reviews">Відгуки</Nav.Link>
