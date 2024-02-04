@@ -14,6 +14,11 @@ import Popap from "./pages/Popap";
 import ContactForm from "./components/ContactForm";
 import { Notifications } from '@mantine/notifications';
 
+import SectionHome from "./components/Section__home";
+import SectionConditions from "./components/Section_conditions";
+import UncontrolledExample from "./components/Carousel";
+import UncontrolledExampleReviews from "./components/CarouselReviews";
+
 
 
 export const SearchContext = React.createContext();
@@ -31,14 +36,13 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/a_hotel_for_cats-react" element={<Home />} />
-          <Route path="/a_hotel_for_cats-react/why"  element={<Home />}/>
-          <Route path="/a_hotel_for_cats-react/number" element={<Home />} />
-          <Route path="/a_hotel_for_cats-react/reviews" element={<Home/>} />
-          <Route path="/a_hotel_for_cats-react/find" element={<Home/>} />
+          <Route path="/a_hotel_for_cats-react/why"  element={ <SectionConditions />}/>
+          <Route path="/a_hotel_for_cats-react/number" element={<UncontrolledExample />} />
+          <Route path="/a_hotel_for_cats-react/reviews" element={ <UncontrolledExampleReviews />} />
+          <Route path="/a_hotel_for_cats-react/find" element={<SectionHome />} />
           <Route path="/a_hotel_for_cats-react/find/numbers" element={<Numbers />} />
           <Route path="/numbers" element={<Numbers />} />
           <Route path="/a_hotel_for_cats-react/numbers" element={<Numbers />} />
-          <Route path="/a_hotel_for_cats-react/number/numbers" element={<Numbers />} />
           <Route path="/home/numbers" element={<Numbers />} />
           <Route path="/home/numbers/fullNumbers/:id" element={<FullNumbers/>} />
           <Route path="/booking" element={<Booking />} />
